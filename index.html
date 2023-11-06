@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="indicatorsForm">
+      <label for="newDayIndicators">New Day Indicators:</label>
+      <input
+        type="number"
+        id="newDayIndicators"
+        name="newDayIndicators"
+        required
+      />
+      <br />
+
+      <label for="oldDayIndicators">Old Day Indicators:</label>
+      <input
+        type="number"
+        id="oldDayIndicators"
+        name="oldDayIndicators"
+        required
+      />
+      <br />
+
+      <label for="newNightIndicators">New Night Indicators:</label>
+      <input
+        type="number"
+        id="newNightIndicators"
+        name="newNightIndicators"
+        required
+      />
+      <br />
+
+      <label for="oldNightIndicators">Old Night Indicators:</label>
+      <input
+        type="number"
+        id="oldNightIndicators"
+        name="oldNightIndicators"
+        required
+      />
+      <br />
+      <button type="button" id="submitButton">Confirm</button>
+    </form>
+    <br />
+    <div class="result-message" style="width: 200px"></div>
+    <script src="script.js"></script>
+    <script src="comunalka.js"></script>
+  </body>
+</html>
