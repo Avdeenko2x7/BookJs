@@ -27,8 +27,8 @@ const englishMonth = currentDate.toLocaleString("en", { month: "long" });
 let comunalka = {
   water: 310,
   internet: 248,
-  cofDay: 1.68,
-  cofNight: 0.84,
+  cofDay: 2.64,      
+  cofNight: 1.32,
   whatTimeOfTheDay() {
     if (hours >= 4 && hours <= 11) {
       return "Ранок";
